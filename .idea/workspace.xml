@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5330c076-3f91-45e9-adec-16b56894d180" name="Changes" comment="зроблено домашне завдання 1_4, додано фон, блоки, заливка символів">
-      <change afterPath="$PROJECT_DIR$/Homework/Hw_1/hw1_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework/Hw_1/style_Betman.css" afterDir="false" />
+    <list default="true" id="5330c076-3f91-45e9-adec-16b56894d180" name="Changes" comment="зроблено домашне завдання 1_5, знаю що помилка з додаванням тега &lt;p&gt; в &lt;h2&gt;, але я не володію знаннями зробити по інакшому.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Hw_1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Hw_1/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/Lesson_1_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/Lesson_1_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/Lesson_1_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/Lesson_1_3_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/Lesson_1_4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Hw_1/style_Betman.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Hw_1/style_Betman.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +90,7 @@
       <workItem from="1745433878063" duration="544000" />
       <workItem from="1745434441447" duration="7441000" />
       <workItem from="1745441961935" duration="3096000" />
+      <workItem from="1745514347932" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="було скрито файли .idea">
       <option name="closed" value="true" />
@@ -179,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745433485411</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="зроблено домашне завдання 1_5, знаю що помилка з додаванням тега &lt;p&gt; в &lt;h2&gt;, але я не володію знаннями зробити по інакшому.">
+      <option name="closed" value="true" />
+      <created>1745514573309</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745514573309</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +212,7 @@
     <MESSAGE value="зроблено домашне завдання 1_4, додано символи, їх заливка, блоки.&#10;&#10;This reverts commit 7e1ed3174840ebab79784f5eca157602c621880f." />
     <MESSAGE value="зроблено домашне завдання 1_3, додано картинку, виставлені межі зов.внут&#10;&#10;This reverts commit 349fb4fecfbd0ce71b9c7314864516289ae57a01." />
     <MESSAGE value="зроблено домашне завдання 1_3, додано картинку, виставлені межі зов.внут&#10;&#10;This reverts commit 349fb4fecfbd0ce71b9c7314864516289ae57a01." />
-    <option name="LAST_COMMIT_MESSAGE" value="зроблено домашне завдання 1_3, додано картинку, виставлені межі зов.внут&#10;&#10;This reverts commit 349fb4fecfbd0ce71b9c7314864516289ae57a01." />
+    <MESSAGE value="зроблено домашне завдання 1_5, знаю що помилка з додаванням тега &lt;p&gt; в &lt;h2&gt;, але я не володію знаннями зробити по інакшому." />
+    <option name="LAST_COMMIT_MESSAGE" value="зроблено домашне завдання 1_5, знаю що помилка з додаванням тега &lt;p&gt; в &lt;h2&gt;, але я не володію знаннями зробити по інакшому." />
   </component>
 </project>
