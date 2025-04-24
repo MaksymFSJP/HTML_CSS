@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5330c076-3f91-45e9-adec-16b56894d180" name="Changes" comment="додав посилання, ще одну сторінку з поверненням назад">
-      <change afterPath="$PROJECT_DIR$/Lesson 1/Lesson_1_4.html" afterDir="false" />
+    <list default="true" id="5330c076-3f91-45e9-adec-16b56894d180" name="Changes" comment="зроблено домашне завдання 1_4, додано фон, блоки, заливка символів">
+      <change afterPath="$PROJECT_DIR$/Homework/Hw_1/hw1_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/Hw_1/style_Betman.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/Lesson_1_3_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 1/Lesson_1_3_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 1/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Hw_1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Hw_1/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 1/Lesson_1_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 1/Lesson_1_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 1/Lesson_1_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 1/Lesson_1_3_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 1/Lesson_1_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 1/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +24,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="0abd53217ff22e0f648b87d94780488b360779cb" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -59,6 +71,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Familyar\IdeaProjects\HTML_CSS\Classwork" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,7 +93,11 @@
       <updated>1745253675714</updated>
       <workItem from="1745253677760" duration="8951000" />
       <workItem from="1745263755570" duration="1456000" />
-      <workItem from="1745340300088" duration="5226000" />
+      <workItem from="1745340300088" duration="11970000" />
+      <workItem from="1745429081367" duration="4735000" />
+      <workItem from="1745433878063" duration="544000" />
+      <workItem from="1745434441447" duration="7441000" />
+      <workItem from="1745441961935" duration="3096000" />
     </task>
     <task id="LOCAL-00001" summary="було скрито файли .idea">
       <option name="closed" value="true" />
@@ -110,17 +131,86 @@
       <option name="project" value="LOCAL" />
       <updated>1745260502116</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="розібрався з редактором тексту, внутрішніми, зовнішніми відступами, кольором фону, ниж.верх. індексами, горизонтальна лінія">
+      <option name="closed" value="true" />
+      <created>1745347757423</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745347757423</updated>
+    </task>
+    <task id="LOCAL-00006" summary="зроблено домашне завдання 1_1">
+      <option name="closed" value="true" />
+      <created>1745350448821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745350448821</updated>
+    </task>
+    <task id="LOCAL-00007" summary="зроблено домашне завдання 1_2, всі знаки і символи поміняв на HTML-cod">
+      <option name="closed" value="true" />
+      <created>1745351939301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745351939301</updated>
+    </task>
+    <task id="LOCAL-00008" summary="зроблено домашне завдання 1_2, всі знаки і символи поміняв на HTML-cod">
+      <option name="closed" value="true" />
+      <created>1745352200070</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745352200070</updated>
+    </task>
+    <task id="LOCAL-00009" summary="зроблено домашне завдання 1_3, додано картинку, виставлені межі зов.внут">
+      <option name="closed" value="true" />
+      <created>1745353986556</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745353986556</updated>
+    </task>
+    <task id="LOCAL-00010" summary="зроблено домашне завдання 1_3, додано картинку, виставлені межі зов.внут">
+      <option name="closed" value="true" />
+      <created>1745433485411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745433485411</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="було скрито файли .idea" />
     <MESSAGE value="додав head, додав Н1-Н6" />
     <MESSAGE value="додав style.css, додав кольори і розмір" />
     <MESSAGE value="додав посилання, ще одну сторінку з поверненням назад" />
-    <option name="LAST_COMMIT_MESSAGE" value="додав посилання, ще одну сторінку з поверненням назад" />
+    <MESSAGE value="розібрався з редактором тексту, внутрішніми, зовнішніми відступами, кольором фону, ниж.верх. індексами, горизонтальна лінія" />
+    <MESSAGE value="зроблено домашне завдання 1_1" />
+    <MESSAGE value="зроблено домашне завдання 1_2, всі знаки і символи поміняв на HTML-cod" />
+    <MESSAGE value="зроблено домашне завдання 1_4, додано фон, блоки, заливка символів" />
+    <MESSAGE value="зроблено домашне завдання 1_4, додано фон, блоки, заливка символів" />
+    <MESSAGE value="зроблено домашне завдання 1_4, додано символи, їх заливка, блоки.&#10;&#10;This reverts commit 7e1ed3174840ebab79784f5eca157602c621880f." />
+    <MESSAGE value="Reapply &quot;зроблено домашне завдання 1_4, додано символи, їх заливка, блоки.&quot;&#10;&#10;This reverts commit 7e1ed3174840ebab79784f5eca157602c621880f." />
+    <MESSAGE value="зроблено домашне завдання 1_4, додано символи, їх заливка, блоки.&#10;&#10;This reverts commit 7e1ed3174840ebab79784f5eca157602c621880f." />
+    <MESSAGE value="зроблено домашне завдання 1_3, додано картинку, виставлені межі зов.внут&#10;&#10;This reverts commit 349fb4fecfbd0ce71b9c7314864516289ae57a01." />
+    <MESSAGE value="зроблено домашне завдання 1_3, додано картинку, виставлені межі зов.внут&#10;&#10;This reverts commit 349fb4fecfbd0ce71b9c7314864516289ae57a01." />
+    <option name="LAST_COMMIT_MESSAGE" value="зроблено домашне завдання 1_3, додано картинку, виставлені межі зов.внут&#10;&#10;This reverts commit 349fb4fecfbd0ce71b9c7314864516289ae57a01." />
   </component>
 </project>
