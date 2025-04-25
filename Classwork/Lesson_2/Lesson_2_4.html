@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrappe{
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items:  center;
+            flex-wrap:  wrap;
+        }
+        .item{
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(0deg,rgba(142, 209, 172, 1) 0%, rgba(253, 187, 45, 1) 100%);
+            box-shadow: 24px 17px 40px 0 rgba(0,0,0,0.8);
+            border-radius: 50%;
+            border: 3px solid rgba(34, 193, 195);
+            transition: 1s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .item a{
+            text-decoration: none;
+            color: white;
+        }
+        .item:hover{
+            border-radius: 0;
+            border: 5px dotted rgba(253, 187, 4);
+            transition: 2s;
+            /*width: 600px;*/
+            /*height: 600px;*/
+            transform: scale(2);
+        }
+        .item:hover a{
+            color: black;
+
+        }
+    </style>
+</head>
+<body>
+<div class="wrappe">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item">
+        <a href="#">link</a>
+    </div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+
+</body>
+</html>
+
