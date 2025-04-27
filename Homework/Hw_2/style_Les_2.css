@@ -1,0 +1,202 @@
+*{margin: 0}
+body{
+    height: 100vh;
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.65);
+}
+h1{
+    margin: 50px;
+    font-size: 96px;
+    color: green;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.box{
+    width: 450px;
+    height: 450px;
+    background-color: lightgreen;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.51);
+    border-radius: 25px;
+    border: 2px solid white;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.Foodmarket{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0);
+    flex-wrap: wrap;
+    gap: 0 30px;
+    align-content: flex-start;
+
+}
+.Pepper img{
+    align-items: start;
+    width: 50%;
+}
+.Pepper p{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 75px;
+}
+.Pepper{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.Apple p{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 75px;
+}
+.Apple{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.Apple img{
+     align-items: start;
+     width: 50%;
+ }
+
+.Cheese{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.Cheese img{
+     align-items: start;
+     width: 50%;
+ }
+.Cheese p{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 75px;
+}
+
+
+.Corn{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.Corn img{
+     align-items: start;
+     width: 50%;
+ }
+.Corn p{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 75px;
+}
+
+
+.Mushroom{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}.Mushroom img{
+     align-items: start;
+     width: 50%;
+ }
+.Mushroom p{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 75px;
+}
+
+.Garlic{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.Garlic img{
+     align-items: start;
+     width: 50%;
+ }
+.Garlic p{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 75px;
+}
+.Beef{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.Beef img{
+     align-items: start;
+     width: 50%;
+ }
+.Beef p{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 75px;
+}
+.Fish{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.Fish img{
+     align-items: start;
+     width: 50%;
+ }
+.Fish p{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 75px;
+}
+.Eggs{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.Eggs img{
+     align-items: start;
+     width: 50%;
+ }
+.Eggs p{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 75px;
+}
+.Coriander{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.Coriander img{
+    align-items: start;
+    width: 50%;
+}
+.Coriander p{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 75px;
+}
+
