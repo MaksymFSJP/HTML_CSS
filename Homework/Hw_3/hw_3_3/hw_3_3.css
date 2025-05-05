@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type:  none;
+    scroll-behavior: smooth;
+}
+.button-yellow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor:  pointer;
+    background: transparent;
+    font-size: 64px;
+    color: yellow;
+
+}
+
+/*----------------------------------------------------*/
+#blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: blue;
+    height: 100vh;
+}
+#blue h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-size: 64px;
+}
+#blue p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: yellow;
+    padding: 50px;
+    text-indent: 100px;
+
+}
+
+.button-blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor:  pointer;
+    background: transparent;
+    font-size: 64px;
+    color: blue;
+
+}
+
+/*---------------------------------------------------*/
+#yellow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: yellow;
+    height: 100vh;
+
+}
+#yellow h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    padding-top: 50px;
+    font-size: 64px;
+}
+#yellow p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: blue;
+    padding: 50px;
+    text-indent: 100px;
+}
+
+.button-song {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor:  pointer;
+    background: transparent;
+    font-size: 64px;
+    color: gray;
+
+}
+
+/*-------------------------------------------------------*/
+
+#song {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    height: 100vh;
+}
+#song h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 64px;
+}
+#song p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color:white;
+    padding: 50px;
+    text-indent: 100px;
+}
+
+.button-yellow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor:  pointer;
+    background: transparent;
+    font-size: 64px;
+
+}
+
