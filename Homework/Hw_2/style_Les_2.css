@@ -1,4 +1,7 @@
-*{margin: 0}
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     height: 100vh;
     background-size: cover;
@@ -199,4 +202,7 @@ h1{
     font-size: 32px;
     margin-top: 75px;
 }
-
+hr {
+    border: 3px solid #000;
+    margin: 50px 0;
+}
