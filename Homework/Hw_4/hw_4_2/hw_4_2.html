@@ -5,9 +5,146 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type:  none;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #8D8484;
+            width: 100vw;
+            height: 20vh;
+        }
+        header p {
+            color: #000;
+            font-family: Inter sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        main {
+            display: flex;
+        }
+        .Content {
+            display: flex;
+            flex-direction: column;
+        }
+        .C1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #776969;
+            width: 73vw;
+            height: 20vh;
+            color: #FFF;
+            font-family: Inter sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .C2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #643030;
+            width: 73vw;
+            height: 20vh;
+            color: #FFF;
+            font-family: Inter sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .C3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #441818;
+            width: 73vw;
+            height: 20vh;
+            color: #FFF;
+            font-family: Inter sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        aside {
+            flex-direction: column;
+
+        }
+
+        .spam1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #937575;
+            width: 27vw;
+            height: 30vh;
+
+        }
+        .spam2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #644C4C;
+            width: 27vw;
+            height: 30vh;
+        }
+        p {
+            color: #FFF;
+            font-family: Inter sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #BDBDBD;
+            width: 100vw;
+            height: 20vh;
+        }
+        footer p {
+            color: #000;
+            font-family: Inter sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        </style>
 </head>
 <body>
-
+<header><p>Header</p></header>
+<main>
+    <div class="Content">
+        <div class="C1"><p>Content - 1</p></div>
+        <div class="C2"><p>Content - 2</p></div>
+        <div class="C3"><p>Content - 3</p></div>
+    </div>
+    <aside>
+        <div class="spam1"><p>Spam - 1</p></div>
+        <div class="spam2"><p>Spam - 2</p></div>
+    </aside>
+</main>
+<footer><p>Footer</p></footer>
 </body>
 </html>
-
