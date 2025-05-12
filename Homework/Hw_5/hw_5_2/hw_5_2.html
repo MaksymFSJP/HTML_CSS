@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type:  none;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            background-color: #D9D9D9;
+        }
+        .more{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+
+        .choven {
+            width: 200px;
+            animation: choven 5s infinite;
+        }
+
+        .hvilay {
+            width: 100vw;
+            animation: hvilay 5s infinite;
+        }
+        @keyframes choven {
+            from{
+                transform: translate(0,0);
+            }
+            10%{
+                transform: translate(150px,90px);
+            }
+
+            20%{
+                transform: translate(300px,180px);
+            }
+            30%{
+                transform: translate(450px,-0.5px);
+            }
+            40%{
+                transform: translate(600px,90px);
+            }
+            50%{
+                transform: translate(750px,150px);
+            }
+            60%{
+                transform: translate(900px,-1px);
+            }
+            70%{
+                transform: translate(1050px,100px);
+            }
+            80% {
+                transform: translate(1200px,150px);
+            }
+            90%{
+                transform: translate(1350px,-2px);
+            }
+            95%{
+                transform: translate(1500px,90px);
+            }
+            to{
+                transform: translate(1650px,180px);
+            }
+        }
+
+        @keyframes hvilay {
+            from{
+                transform: scale(1.2);
+            }
+            50%{
+                transform: scale(1.1);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="more">
+    <img class="choven" src="img/choven.png" alt="choven">
+    <img class="hvilay" src="img/hvilay.png" alt="hvilay">
+
+</div>
+
+
+</body>
+</html>
