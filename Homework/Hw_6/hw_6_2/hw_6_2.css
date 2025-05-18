@@ -1,0 +1,61 @@
+
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #397c80;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-account{
+    width: 35vw;
+    height: 45vh;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.form-account div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    background-color: #c6eef1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.form-account div:nth-child(1){
+    font-size: 20px;
+    font-weight: 100;
+
+}
+.form-account form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction:  column;
+}
+input[type=text], input[type=password] {
+    width: 300px;
+    height: 30px;
+    margin: 15px;
+
+}
+.form-account>form>div{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+
+}
+form input[type="submit"] {
+    background-color: #c6eef1;
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 80px;
+    height: 30px;
+}
+
