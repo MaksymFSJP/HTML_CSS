@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type:  none;
+}
+body {
+    background: #071341;
+    font-family: 'Inter', sans-serif;
+}
+
+/*-----------------------------------------HEADER---------------------------------*/
+
+header {
+    width: 100%;
+    height: 113px;
+    background: #24204A;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: fixed;
+    top: 0;
+}
+.golova {
+    width: 1153px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 63px;
+}
+
+nav a {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+h1 {
+    color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.6;
+
+}
+a {
+    color: #FFF;
+}
+a:hover {
+    color: aqua;
+}
+a:active {
+    color: #6bcd6b;
+}
+
+
+/*!*------------------------------------------Lamp--------------------------------*!*/
+.one {
+    height: 692px;
+    padding: 180px 0 101px 0;
+    background: #24204A;
+    box-sizing: border-box;
+}
+
+.block {
+    width: 1153px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn1 {
+    width: 145px;
+    height: 41px;
+    border-radius: 8px;
+    background: #4B4864;
+    color: #8e88c1;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.8px;
+    border: none;
+}
+.block div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+.block h1{
+    width: 261px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+ }
+.block p {
+    width: 570px;
+    color: #8E88C1;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.8px;
+}
+.btn2 {
+    width: 200px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    background: #3F50E7;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.block div:nth-child(2) {
+    width: 375px;
+    height: 411px;
+    border-radius: 8px;
+    background: #827EAC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.block div:nth-child(2) img {
+    width: 418px;
+    padding-left: 28px;
+    object-fit: cover;
+
+}
+
+
+/*-------------------------------- WEATHER-------------------------------*/
+.weather_1 {
+    height: 764px;
+    padding: 50px 0 152px 0;
+    box-sizing: border-box;
+}
+.status {
+    width: 1153px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.w1, .w2, .w3, .w4, .w5 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+}
+.w1:nth-child(1) div:nth-child(1) {
+    border-radius: 8px;
+    background: #FF6853;
+    width: 56.144px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.w2:nth-child(2) div:nth-child(1) {
+    border-radius: 8px;
+    background: #FF537C;
+    width: 56.144px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.w3:nth-child(3) div:nth-child(1) {
+    border-radius: 8px;
+    background: #80D2C4;
+    width: 56.144px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.w4:nth-child(4) div:nth-child(1) {
+    border-radius: 8px;
+    background: #3F50E7;
+    width: 56.144px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.w5:nth-child(5) div:nth-child(1) {
+    border-radius: 8px;
+    background: #95CB7C;
+    width: 56.144px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.w1 h2, .w2 h2, .w3 h2, .w4 h2, .w5 h2{
+    width: 38.098px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+.w1 p, .w2 p, .w3 p, .w4 p, .w5 p {
+    margin-top: 5px;
+    color: #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+
+}
+.status h2{
+    width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.status p {
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    margin-bottom: 50px;
+}
+
+/*-------------------------- Квадрати-------------------------*/
+
+.kvadratu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.kv {
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 26px;
+}
+.kv p {
+    width: 178px;
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+
+}
+/*-----------------------karta---------------------------*/
+
+iframe {
+    width: 100%;
+    height: 664px;
+    flex-shrink: 0;
+}
+footer {
+    width: 100%;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+}
