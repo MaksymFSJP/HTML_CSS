@@ -1,0 +1,36 @@
+@media screen and (min-width: 0) and (max-width: 768px) {
+    .all {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .box-all {
+        display: flex;
+        width: 375px;
+        padding: 32px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        background: yellow;
+        gap: 10px;
+    }
+    .box-margin {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+    .box-top, .box-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        align-self: stretch;
+    }
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+}

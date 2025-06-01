@@ -1,0 +1,36 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .all {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .box-all {
+        display: flex;
+        width: 720px;
+        margin: 0 auto;
+        padding: 32px 24px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        background: #6bcd6b;
+    }
+    .box-margin {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+    .box-top {
+        display: flex;
+        align-items: flex-start;
+        gap: 32px;
+        align-self: stretch;
+    }
+    .box-bottom {
+        display: flex;
+        align-items: flex-start;
+        gap: 32px;
+        align-self: stretch;
+    }
+}

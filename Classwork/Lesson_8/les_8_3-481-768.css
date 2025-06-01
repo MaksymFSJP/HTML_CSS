@@ -1,0 +1,10 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .item-1 {
+        background-color: black;
+        width: 100px;
+        height: 100px;
+    }
+    .item-2 {
+        background-color: white;
+    }
+}

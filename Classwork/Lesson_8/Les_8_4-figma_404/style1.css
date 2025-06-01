@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+.wrapper-not-found {
+    background-color: #161622;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-left {
+    width: 396px;
+    height: 396px;
+    border-radius: 396px;
+    border: 48px solid #6F1DF4;
+    opacity: 0.5;
+    position: absolute;
+    top: -200px;
+    left: -210px;
+}
+.circle-right {
+    width: 260px;
+    height: 260px;
+    border-radius: 260px;
+    border: 48px solid #6F1DF4;
+    opacity: 0.5;
+    position: absolute;
+    top: -20px;
+    right: -120px;
+}
+.page-not-found {
+    text-align: center;
+
+}
+.page-not-found h2 {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140px;
+    letter-spacing: -0.5px;
+    margin-bottom: 30px;
+}
+.page-not-found h3 {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.25px;
+
+}
+.page-not-found p {
+    width: 533px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 30px 0 24px 0;
+
+
+}
+.page-not-found div {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+.page-not-found div button:nth-child(1){
+    background: #6F1DF4;
+    border-radius: 32px;
+    height: 64px;
+    color: #FFF;
+    padding: 0 48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.page-not-found div button:nth-child(2){
+    background: #FFF;
+    border-radius: 32px;
+    height: 64px;
+    color: #6F1DF4;
+    padding: 0 48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #6F1DF4;
+}

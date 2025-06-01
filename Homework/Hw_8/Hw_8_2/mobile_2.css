@@ -1,0 +1,68 @@
+@media screen and (min-width: 0) and (max-width: 768px) {
+    .desktop {
+        height: 1279px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #a8eca8;
+    }
+    .basket {
+        background: none !important;
+        display: flex;
+        width: 375px;
+        padding: 32px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+
+    }
+    .face {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        align-self: stretch;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        align-self: stretch;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+    h2 {
+        flex: 1 0 0;
+        color: #161543;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        padding-top: 20px;
+    }
+    p {
+        width: 250px;
+        align-self: stretch;
+        color: #7687A1;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        padding-top: 10px;
+    }
+}
+
+
